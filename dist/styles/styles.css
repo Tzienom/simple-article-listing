@@ -11,9 +11,61 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+/* Poppins Regular (400) */
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Regular"),
+    url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
   font-display: swap;
+
+  size-adjust: 98%;
+  ascent-override: 92%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+}
+
+/* Poppins Regular (500) */
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Medium"),
+    url("../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  ascent-override: 90%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+  size-adjust: 105%;
+}
+
+/* Poppins Regular (600) */
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Semibold"),
+    url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+  ascent-override: 90%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+  size-adjust: 105%;
+}
+
+/* Poppins Regular (700) */
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Bold"), url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  ascent-override: 90%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+  size-adjust: 105%;
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
   line-height: 1.5;
 }
 
@@ -55,6 +107,9 @@ a {
   font-size: 2.25rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  visibility: visible;
+  letter-spacing: -2px;
+  word-spacing: 1.75px;
 }
 
 #separator {
