@@ -12,7 +12,7 @@
 }
 
 /* Poppins Regular (400) */
-@font-face {
+/* @font-face {
   font-family: "Poppins";
   src: local("Poppins Regular"),
     url("../fonts/Poppins-Regular.woff2") format("woff2");
@@ -23,10 +23,10 @@
   ascent-override: 92%;
   descent-override: 24%;
   line-gap-override: 0%;
-}
+} */
 
 /* Poppins Regular (500) */
-@font-face {
+/* @font-face {
   font-family: "Poppins";
   src: local("Poppins Medium"),
     url("../fonts/Poppins-Medium.woff2") format("woff2");
@@ -36,10 +36,10 @@
   descent-override: 20%;
   line-gap-override: 0%;
   size-adjust: 105%;
-}
+} */
 
 /* Poppins Regular (600) */
-@font-face {
+/* @font-face {
   font-family: "Poppins";
   src: local("Poppins Semibold"),
     url("../fonts/Poppins-SemiBold.woff2") format("woff2");
@@ -49,10 +49,10 @@
   descent-override: 20%;
   line-gap-override: 0%;
   size-adjust: 105%;
-}
+} */
 
 /* Poppins Regular (700) */
-@font-face {
+/* @font-face {
   font-family: "Poppins";
   src: local("Poppins Bold"), url("../fonts/Poppins-Bold.woff2") format("woff2");
   font-weight: 700;
@@ -61,11 +61,10 @@
   descent-override: 20%;
   line-gap-override: 0%;
   size-adjust: 105%;
-}
+} */
 
 body {
-  font-family: "Poppins", "Segoe UI", Roboto, "Helvetica Neue", Arial,
-    sans-serif;
+  font-family: sans-serif;
   line-height: 1.5;
 }
 
